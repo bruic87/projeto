@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    width: 593px;
+    height: 168px;
+    color: #f6f6f6;
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+p {
+    width: 593px;
+    height: 144px;
+    color: #f6f6f6;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+strong {
+    color: #22d4fd;
+}
