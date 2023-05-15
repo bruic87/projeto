@@ -4,23 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Portifólio</title>
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__links" href="index.html">Home</a>
+            <a class="cabecalho__menu__links" href="about.html">Sobre Mim</a>
+        </nav>
+    </header>
     <main class="container">
         <section class="container__conteudo">    
             <h1 class="container__conteudo__titulo">Desenvolvedor Fullstack em formação, <strong>conheça meu PORTIFÓLIO!</strong></h1>
             <p class="container__conteudo__texto">Olá! Sou Bruno Inácio, desenvolvedor Fullstack em formação com especialidade em React, HTML, CSS e JavaScript. Venha conhecer meus projetos de aprendizado em escolas de habilidades digitais, tais como DevMedia, Alura e Digital College. Vamos conversar?</p>
             <div class="container__links">
                 <h2 class="container__links__subtitulo" >Acesse minhas redes:</h2>
-                <a class="container__links__link" href="https://www.linkedin.com/in/bruic/">Linkedin</a>
-                <a class="container__links__link" href="https://github.com/bruic87">Github</a>
+                <a class="container__links__link" href="https://www.linkedin.com/in/bruic/">
+                    <img src="assets/linkedin.png" alt="icone linkedin">
+                    Linkedin</a>
+                <a class="container__links__link" href="https://github.com/bruic87">
+                    <img src="assets/github.png" alt="icone github">
+                    Github</a>
             </div>
         </section>
-        <img src="profile.jpg" alt="Foto Bruno Inacio">
+        <img class="persona" src="assets/profile.jpg" alt="Foto Bruno Inacio">
     </main>
-    <footer></footer>
+    <footer>
+        <p class="rodape"> Desenvolvido por Bruic</p>
+    </footer>
 </body>
 </html>
