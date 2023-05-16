@@ -4,17 +4,27 @@
     margin: 0%;
     padding: 0%;
     text-decoration: none;
-    color: #22d4fd;
+    color: var(--cor-terciaria);
+}
+
+:root{
+    --cor-primaria: #6096B4;
+    --cor-secundaria: #EEE9DA;
+    --cor-terciaria: #93BFCF;
+    --cor-hover: #BDCDD6;
+
+    --font-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
 }
 
 body {
     box-sizing: border-box;
-    background-color: #000;
-    color: #f6f6f6;
+    background-color:var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 strong {
-    color: #22d4fd;
+    color: var(--cor-terciaria);
 }
 
 .container {
@@ -34,10 +44,10 @@ strong {
 }
 
 .cabecalho__menu_links {
-    font-family: 'Monteserrat', sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 1.2rem;
     font-weight: 600;
-    color: #22d4fd;
+    color: var(--cor-secundaria);
     text-decoration: none;
 }
 
@@ -51,15 +61,15 @@ strong {
 
 .container__conteudo__titulo {
     font-size: 1.5rem;
-    font-family: 'Krona One', sans-serif;
-    color: #f6f6f6;
+    font-family: var(--font-primaria);
+    color: var(--cor-secundaria);
 }
 
 .container__conteudo__texto {
     font-size: 1rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secundaria);
     text-align: justify;
-    color: #f6f6f6;
+    color: var(--cor-secundaria);
 }
 
 .container__links {
@@ -72,7 +82,7 @@ strong {
 }
 
 .container__links__subtitulo {
-    font-family: 'Krona one', sans-serif;
+    font-family: var(--font-primaria);
     font-weight: 400;
     font-size: 1rem;
 }
@@ -83,21 +93,21 @@ strong {
     align-items: center;
     gap: 1rem;
     width: 300px;
-    border: solid 2px #22d4fd;
+    border: solid 2px var(--cor-secundaria);
     text-align: center;
     border-radius: 8px;
     font-size: 1rem;
     font-weight: 600;
     padding: 21.5px 0px;
     text-decoration: none;
-    color: #f6f6f6;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-terciaria);
+    font-family: var(--font-secundaria);
 }
 
 .container__links__link:hover {
-    background-color: #272727;
+    background-color: var(--cor-primaria);
     padding: 3%;
-    border: groove 2px royalblue;
+    border: groove 2px var(--cor-hover);
 }
 
 .persona {
@@ -105,11 +115,11 @@ strong {
 }
 
 .rodape {
-    color: #000;
+    color: var(--cor-primaria);
     background-color: #22d4fd;
     padding: 1.2rem;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 1.2rem;
     font-weight: 400;
 }
