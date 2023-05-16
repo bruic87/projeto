@@ -4,7 +4,7 @@
     margin: 0%;
     padding: 0%;
     text-decoration: none;
-    color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
 }
 
 :root{
@@ -100,7 +100,7 @@ strong {
     font-weight: 600;
     padding: 21.5px 0px;
     text-decoration: none;
-    color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
     font-family: var(--font-secundaria);
 }
 
