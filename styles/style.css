@@ -54,8 +54,8 @@ strong {
 .container__conteudo {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    width: 615px;
+    gap: 2.5rem;
+    width: 65%;
     margin-right: 10%;
 }
 
@@ -92,13 +92,13 @@ strong {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    width: 300px;
+    width: 45%;
     border: solid 2px var(--cor-secundaria);
     text-align: center;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     font-size: 1rem;
     font-weight: 600;
-    padding: 21.5px 0px;
+    padding: 1.35rem 0rem;
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--font-secundaria);
@@ -107,16 +107,16 @@ strong {
 .container__links__link:hover {
     background-color: var(--cor-primaria);
     padding: 3%;
-    border: groove 2px var(--cor-hover);
+    border: groove 0.12rem var(--cor-hover);
 }
 
 .persona {
-    width: 20rem;
+    width: 35%;
 }
 
 .rodape {
-    color: var(--cor-primaria);
-    background-color: #22d4fd;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
     padding: 1.2rem;
     text-align: center;
     font-family: var(--font-secundaria);
