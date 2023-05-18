@@ -136,5 +136,26 @@ strong {
     
     .container {
         flex-direction: column-reverse;
+        padding: 5% 3%;
+    }
+
+    .container__conteudo {
+        width: auto;
+    }
+
+    .container__links__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 45%;
+        text-align: center;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 1.35rem 0rem;
+        text-decoration: none;
+        color: var(--cor-secundaria);
+        font-family: var(--font-secundaria);
     }
 }
